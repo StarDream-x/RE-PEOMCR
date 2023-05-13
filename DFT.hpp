@@ -154,6 +154,8 @@ public:
             std::cout<<"READ ERROR!"<<std::endl;
             exit(-1);
         }
+        Mat GT = imread("sppp4D.ppm");
+        image = image - GT;
 
         int tile = 32;
         copyMakeBorder(image,image,0,

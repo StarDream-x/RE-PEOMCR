@@ -31,7 +31,7 @@ The same as Games101.
    * ./RayTracing 1 input.ppm: to get the spectrum of input image.
    * ./RayTracing 2 input1.ppm input2.ppm: to get the spectrum of different image.
    * ./RayTracing 3 input.ppm: to get the guassianBlur image of input image with kernel size=3*3 and sigma=sqrt(2/pi).
-   * ./RayTracing 4 input.ppm: to get the tiled spectrum image with tile size=32
+   * ./RayTracing 4 input.ppm: to get the tiled spectrum image with tile size=32 (GT should be named as "spp4D.ppm").
    * ./RayTracing 5 GT.ppm: to get the optimized image with Ground Truth.
 
 ## More
